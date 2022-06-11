@@ -20,7 +20,7 @@ brew install --cask 'whatsapp'
 brew install --cask 'spotify'
 brew install --cask 'zoho-mail'
 brew install --cask 'sequel-ace'
-brew install --cask'todoist'
+brew install --cask 'todoist'
 brew install --cask 'postman'
 brew install --cask 'vlc'
 
