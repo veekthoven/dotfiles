@@ -13,6 +13,6 @@ git clone git@github.com:veekthoven/veekthoven.git $CODE/veekthoven
 # Work
 git clone git@github.com:The-Lesson-Builder-LLC/myworksheetmaker.git $CODE/myworksheetmaker
 git clone git@github.com:The-Lesson-Builder-LLC/mywordsearch.git $CODE/mywordsearch
-git clone git@github.com:The-Lesson-Builder-LLC/crosswordhobbyist.git $CODE/mywordsearch
+git clone git@github.com:The-Lesson-Builder-LLC/crosswordhobbyist.git $CODE/crosswordhobbyist
 
 echo "Done cloning repositories"
