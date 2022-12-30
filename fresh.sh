@@ -11,18 +11,22 @@ fi
 if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
-  eval "$(/opt/homebrew/bin/brew shellenv)"
+  echo 'eval "$(/usr/local/bin/brew shellenv)"' >> $HOME/.zprofile
+  eval "$(/usr/local/bin/brew shellenv)"
 fi
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# Install zsh plugins: syntax highlighting and zsh autosuggestions.
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 # Update Homebrew recipes
 brew update
 
-$DOTFILES/Brewfile.sh
+$DOTFILES/brewfile.sh
 
 # Create a Code directory
 mkdir $HOME/code
