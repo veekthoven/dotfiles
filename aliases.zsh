@@ -7,7 +7,6 @@ alias c="clear"
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
-alias code="cd $HOME/code"
 
 # Laravel
 alias sa="sail artisan"

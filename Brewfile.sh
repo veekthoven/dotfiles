@@ -1,4 +1,5 @@
 #!/bin/sh
+
 brew tap homebrew/cask-fonts  
 
 # Binaries
