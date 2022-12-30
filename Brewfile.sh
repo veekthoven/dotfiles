@@ -4,10 +4,9 @@ brew tap homebrew/cask-fonts
 # Binaries
 brew install 'git'
 brew install 'grep'
-#brew install 'mackup'
-#brew install 'mas' # Mac App Store manager
-#brew install 'svn' # Needed to install fonts
 
+#Developement
+brew install 'composer'
 
 # Apps'
 #brew install --cask 'docker'

@@ -104,3 +104,4 @@ export LANG=en_US.UTF-8
 # Example aliases
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
+source $DOTFILES/aliases.zsh
