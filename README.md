@@ -6,7 +6,7 @@ This repository serves as my way to help me setup and maintain my Mac. It takes 
 
 ## A Fresh macOS Setup
 
-These instructions are for setting up new Mac devices. Instead, if you want to get started building your own dotfiles, you can [find those instructions below](#your-own-dotfiles).
+These instructions are for setting up new Mac devices.
 
 ### Backup your data
 
