@@ -30,7 +30,4 @@ mkdir $HOME/code
 # Clone Github repositories
 $DOTFILES/clone.sh
 
-# Set macOS preferences - we will run this last because this will reload the shell
-source $DOTFILES/.macos
-
 echo "Done setting up your Mac."
