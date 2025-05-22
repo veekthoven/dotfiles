@@ -31,7 +31,6 @@ $DOTFILES/brewfile.sh
 # Create a Code directory
 mkdir $HOME/code
 
-# Clone Github repositories
-$DOTFILES/clone.sh
+mkdir $HOME/herd
 
 echo "Done setting up your Mac."

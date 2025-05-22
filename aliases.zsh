@@ -14,6 +14,3 @@ alias sa="sail artisan"
 # JS
 alias npmfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias watch="npm run watch"
-
-# Docker
-alias docker-composer="docker-compose"
