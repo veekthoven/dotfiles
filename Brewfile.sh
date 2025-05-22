@@ -20,4 +20,5 @@ brew install --cask 'sequel-ace'
 brew install --cask 'todoist'
 brew install --cask 'postman'
 brew install --cask 'vlc'
-brew install --cask herd
+brew install --cask 'herd'
+brew install --cask 'warp'
